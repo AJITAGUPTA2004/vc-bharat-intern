@@ -1,0 +1,25 @@
+{
+  "name": "@bergie/create",
+  "version": "1.0.0beta1",
+  "url": "http://createjs.org/",
+  "author": "Henri Bergius <henri.bergius@iki.fi>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergie/create.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-uglify": "~3.4.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-qunit": "~2.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-saucelabs": "^9.0.0",
+    "grunt-bower-install-simple": "^1.0.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
